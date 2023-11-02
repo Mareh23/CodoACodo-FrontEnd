@@ -11,15 +11,6 @@
     color: green !important;
 }
 
-.background-section {
-    position: relative;
-    background-image: url('img/ba1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 200px;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -55,24 +46,15 @@
     margin-bottom: 0.0rem;
 }
 
-/* Estilos para la segunda sección */
 .card.text-dark {
     background-color: rgb(48, 43, 43); 
 }
 
-.img-container {
-    height: 100%; 
-}
 
 .img-container img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-
-.bg-gray {
-    background-color: rgb(48, 43, 43);
-    color: white; 
 }
 
 .bg-gray h5,
@@ -88,14 +70,10 @@
     margin-top: 10px; 
 }
 
-/* Estilos para la tercera sección */
 section {
     background-color: #f8f9fa; 
 }
 
-u {
-    border-bottom: 1px dotted #000; 
-}
 
 /* Formulario */
 form {
@@ -116,7 +94,32 @@ form {
 }
 
 .card {
-    margin-bottom: 20px;
+    width: 300px; 
+    border: 1px solid; 
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    background-color: white;
+    margin: 0 10px; 
+}
+
+.blue {
+    border-color: #007BFF; 
+}
+
+.green {
+    border-color: #28A745; 
+}
+
+.yellow {
+    border-color: #FFC107; 
+}
+.container-cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 150px; 
 }
 
 .card-title {
@@ -132,7 +135,31 @@ form {
     margin-bottom: 5px; 
 }
 
-/* Footer */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.custom-button {
+    background-color: #4CAF50;
+    color: #fff; 
+    width: 50%; 
+}
+
+.result-container {
+    background-color: #add5f6f1; 
+    padding: 10px;
+    text-align: left; 
+    border-radius: 5px; 
+    margin: 20px;
+}
+
+#precioFinal {
+    font-size: 18px; 
+    font-weight: bold; 
+}
+
 footer {
     background: rgb(28, 54, 67);
     background: linear-gradient(90deg, rgba(28, 54, 67, 1) 0%, rgba(30, 83, 113, 1) 100%);
@@ -162,6 +189,11 @@ footer {
 .footer-link a:hover {
     text-decoration: underline;
 }
+
+.info{
+    margin-top: -70px;
+}
+
 
 /* Dispositivos móviles */
 @media (max-width: 767px) {
