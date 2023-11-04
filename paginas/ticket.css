@@ -242,3 +242,72 @@ footer {
         justify-content: center;
     }
 }
+
+@media (max-width: 767px) {
+    .navbar {
+        flex-direction: column; 
+    }
+
+    .logo img {
+        max-width: 100%; 
+    }
+
+    .logo span {
+        font-size: 14px; 
+    }
+
+    .navbar-toggler-icon {
+        color: white; 
+    }
+
+    .col-md-3, .col-md-9 {
+        text-align: center;
+    }
+
+    .container-cards {
+        margin: 20px; 
+    }
+
+    .card {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    form {
+        max-width: 90%; 
+        margin: 0 auto;
+    }
+
+    .form-control {
+        margin-bottom: 10px; 
+    }
+
+    .text-uppercase {
+        margin-bottom: 10px; 
+    }
+
+    .left-align {
+        text-align: center; 
+    }
+
+    .button-container {
+        flex-direction: column; 
+    }
+
+    .custom-button {
+        width: 100%; 
+    }
+
+    .result-container {
+        text-align: center; 
+    }
+}
+.custom-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
